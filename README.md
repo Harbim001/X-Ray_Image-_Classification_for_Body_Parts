@@ -20,12 +20,13 @@ I collected a dataset of 3,615 X-ray images from three different repositories. T
 
 Four experiments were conducted to validate the models:
 
-1. *Neural Network with Unaltered Training Data*: Used a neural network-based machine learning architecture without any alteration in the training dataset.
-2. *Balanced Training Data with Neural Network*: Balanced the classes in the training data using image augmentation and used a neural network-based architecture.
-3. *Feature Extraction with Various Classifiers*: Utilized feature extraction techniques like Harris, SIFT, SURF, HOG, etc., and tested with multiple machine learning architectures.
-4. *Feature Extraction with Balanced Training Data*: Used feature extraction combined with data balancing techniques like random undersampling, and applied various machine learning models including NN.
+1. **Neural Network with Unaltered Training Data**: Used a neural network-based machine learning architecture without any alteration in the training dataset.
+2. **Balanced Training Data with Neural Network**: Balanced the classes in the training data using image augmentation and used a neural network-based architecture.
+3. **Feature Extraction with Various Classifiers**: Utilized feature extraction techniques like Harris, SIFT, SURF, HOG, etc., and tested with multiple machine learning architectures.
+4. **Feature Extraction with Balanced Training Data**: Used feature extraction combined with data balancing techniques like random undersampling, and applied various machine learning models including NN.
 
-### Metrics
+
+### Metrics
     
      - Precision
      - Recall
@@ -35,7 +36,7 @@ Four experiments were conducted to validate the models:
 
 
 ### Results
-§
+
 Results and comparisons between the experiments are presented in tables and plots in the notebook.
 
 ### Future Work
